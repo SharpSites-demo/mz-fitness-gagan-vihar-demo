@@ -1,1 +1,289 @@
-__INDEX_HTML__
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MZ Fitness — Gym in Gagan Vihar, East Delhi | Free Trial</title>
+<meta name="description" content="Spacious, fully-equipped gym in Gagan Vihar, East Delhi. 4.7★ from 122 Google reviews. Coaches, cardio and strength floor. Open 6 AM–10 PM daily. Ask about a free trial on WhatsApp.">
+<meta name="theme-color" content="#0f1013">
+<style>
+:root{--ink:#0f1013;--panel:#16181c;--card:#1d2026;--line:#2a2e36;--text:#f3f1ea;--muted:#a8adb8;--ember:#ff5c1a;--wa:#25d366}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+img,svg{max-width:100%;height:auto;display:block}
+.wrap{max-width:1120px;margin:auto;padding:0 22px}
+:focus-visible{outline:3px solid var(--ember);outline-offset:3px}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.brand{font-weight:900;letter-spacing:.08em;font-size:15px}
+.brand span{color:var(--ember)}
+.nav .call{font-weight:700;font-size:14px;border:1px solid var(--line);border-radius:999px;padding:10px 16px;min-height:44px;display:inline-flex;align-items:center}
+.hero{padding:64px 0 56px;display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.kicker{font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:12px;color:var(--ember)}
+.hero h1{font-size:clamp(44px,7.5vw,86px);line-height:.95;margin:14px 0 20px;letter-spacing:-.03em;font-weight:900}
+.hero h1 em{font-style:normal;color:var(--ember)}
+.hero .lede{font-size:18px;color:var(--muted);max-width:30em;margin:0 0 26px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 24px;border-radius:999px;font-weight:800;font-size:16px}
+.btn.primary{background:var(--ember);color:#fff}
+.btn.primary:hover{filter:brightness(1.12)}
+.btn.ghost{border:1px solid var(--line);color:var(--text)}
+.btn.ghost:hover{border-color:var(--muted)}
+.micro{font-size:13px;color:var(--muted);margin-top:14px}
+.rippleHost{position:relative;aspect-ratio:4/3;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}
+.rippleSource{display:none;width:100%;height:100%;border:0}
+.rippleOutput{display:none;position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.rippleHost.fx-on .rippleSource{display:block}
+.rippleHost.fx-on .rippleOutput{display:block}
+.heroArt{width:100%;height:100%;display:flex;flex-direction:column}
+.heroArt svg{flex:1;min-height:0;width:100%}
+.chips{display:flex;gap:8px;flex-wrap:wrap;padding:12px;border-top:1px solid var(--line)}
+.chip{font-size:13px;font-weight:700;border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:var(--card);white-space:nowrap}
+.chip b{color:var(--ember)}
+.strip{border-block:1px solid var(--line);background:var(--panel)}
+.strip .wrap{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center;padding:14px 22px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.strip span b{color:var(--text)}
+section{padding:72px 0}
+.sec-head{margin-bottom:34px}
+h2{font-size:clamp(30px,4.5vw,52px);line-height:1.05;margin:10px 0 12px;letter-spacing:-.02em;font-weight:900}
+.sec-head p{color:var(--muted);max-width:40em;margin:0}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;min-height:230px;display:flex;flex-direction:column}
+.card .ico{color:var(--ember);margin-bottom:16px}
+.card h3{font-size:21px;margin:0 0 8px}
+.card p{color:var(--muted);font-size:15px;margin:0}
+.ph{border:1px dashed #4a5058;border-radius:10px;padding:10px 12px;font-size:14px;color:var(--muted);margin-top:14px}
+.start{background:var(--panel);border-block:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:30px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.step .n{font-weight:900;color:var(--ember);font-size:14px;letter-spacing:.12em}
+.step h3{font-size:20px;margin:10px 0 8px}
+.step p{color:var(--muted);font-size:15px;margin:0}
+.start-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.quote{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column;gap:14px}
+.quote .stars{color:var(--ember);letter-spacing:2px;font-size:14px}
+.quote p{margin:0;font-size:15px;color:var(--text)}
+.quote .who{font-size:13px;color:var(--muted);margin-top:auto}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.factbox,.mapbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px}
+.factbox .row{padding:12px 0;border-bottom:1px solid var(--line)}
+.factbox .row:last-child{border:0}
+.factbox b{display:block;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.mapbox{display:flex;flex-direction:column;gap:14px}
+.mapbox .ph{margin-top:auto;margin-bottom:0}
+footer{padding:34px 0 110px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(15,16,19,.94);border-top:1px solid var(--line);backdrop-filter:blur(6px)}
+.sticky .btn{flex:1;min-height:48px;font-size:15px}
+@media(max-width:54.9em){
+  .hero,.visit{grid-template-columns:1fr}
+  .grid3,.steps,.quotes{grid-template-columns:1fr}
+  .hero{padding:44px 0 48px;gap:30px}
+  section{padding:56px 0}
+  .sticky{display:flex}
+  .nav .call span{display:none}
+}
+@media(min-width:55em){.sticky{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*{animation:none!important;transition:none!important}}
+</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+<header id="top">
+<div class="wrap">
+<nav class="nav" aria-label="Main">
+<div class="brand">MZ<span> FITNESS</span></div>
+<a class="call" href="tel:+917042084853"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <span>+91 70420 84853</span></a>
+</nav>
+</div>
+<div class="wrap">
+<section class="hero" aria-label="Introduction">
+<div>
+<p class="kicker">Gagan Vihar · East Delhi</p>
+<h1>Serious iron.<br><em>Zero crowding.</em></h1>
+<p class="lede">MZ Fitness is the 4.7★ rated gym on the Gagan Vihar main stretch — a spacious, fully-equipped floor with coaches who guide every rep. Open 6 AM to 10 PM, every day.</p>
+<div class="cta-row">
+<a class="btn primary" href="https://wa.me/917042084853?text=Hi%20MZ%20Fitness!%20I%20want%20to%20ask%20about%20a%20free%20trial%20session.">Ask about a free trial</a>
+<a class="btn ghost" href="#floor">See the floor</a>
+</div>
+<p class="micro">Free trial session — book it on WhatsApp or just walk in.</p>
+</div>
+<div class="rippleHost" id="rippleHost">
+<div class="heroArt" id="heroArt" aria-label="Illustration of the MZ Fitness training floor" role="img">
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<rect width="400" height="260" fill="#16181c"/>
+<g stroke="#23272e" stroke-width="1">
+<line x1="0" y1="196" x2="400" y2="196"/><line x1="0" y1="228" x2="400" y2="228"/>
+<line x1="60" y1="196" x2="20" y2="260"/><line x1="160" y1="196" x2="140" y2="260"/><line x1="260" y1="196" x2="260" y2="260"/><line x1="360" y1="196" x2="390" y2="260"/>
+</g>
+<g stroke="#f3f1ea" stroke-width="5" stroke-linecap="round">
+<line x1="96" y1="120" x2="304" y2="120"/>
+</g>
+<g fill="#1d2026" stroke="#ff5c1a" stroke-width="4">
+<circle cx="120" cy="120" r="34"/><circle cx="280" cy="120" r="34"/>
+</g>
+<g fill="#ff5c1a">
+<circle cx="120" cy="120" r="9"/><circle cx="280" cy="120" r="9"/>
+</g>
+<g stroke="#a8adb8" stroke-width="4" stroke-linecap="round" fill="none">
+<line x1="150" y1="176" x2="250" y2="176"/>
+<line x1="162" y1="176" x2="162" y2="204"/><line x1="238" y1="176" x2="238" y2="204"/>
+<rect x="150" y="164" width="100" height="12" rx="6" fill="#1d2026"/>
+</g>
+<g stroke="#a8adb8" stroke-width="4" fill="#1d2026" stroke-linecap="round">
+<circle cx="352" cy="176" r="20"/>
+<path d="M342 156 q10 -14 20 0" fill="none"/>
+</g>
+<g stroke="#3a4048" stroke-width="5" stroke-linecap="round">
+<line x1="40" y1="70" x2="40" y2="180"/><line x1="64" y1="70" x2="64" y2="180"/>
+<line x1="40" y1="96" x2="64" y2="96"/><line x1="40" y1="140" x2="64" y2="140"/>
+</g>
+<g fill="#ff5c1a"><rect x="34" y="100" width="36" height="8" rx="4" opacity=".85"/></g>
+</svg>
+<div class="chips">
+<span class="chip"><b>4.7★</b> Google rating</span>
+<span class="chip"><b>122</b> reviews</span>
+<span class="chip">Open <b>6 AM–10 PM</b></span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</header>
+<main>
+<div class="strip" aria-label="What members mention most in Google reviews">
+<div class="wrap">
+<span><b>Knowledgeable trainers</b> · 31 mentions</span>
+<span><b>Helpful staff</b> · 30 mentions</span>
+<span><b>Clean facility</b></span>
+<span><b>Never overcrowded</b></span>
+<span><b>Cardio equipment</b></span>
+</div>
+</div>
+<div class="wrap">
+<section id="floor" aria-label="The training floor">
+<div class="sec-head">
+<p class="kicker">The floor</p>
+<h2>Built for serious workouts, not waiting around.</h2>
+<p>Everything members mention in their reviews — space, equipment, coaching — sits on one floor in Gagan Vihar.</p>
+</div>
+<div class="grid3">
+<article class="card">
+<svg class="ico" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 12h18M6 8v8M18 8v8M9 6v12M15 6v12"/></svg>
+<h3>A floor that breathes</h3>
+<p>Members call it spacious and never overcrowded — room to finish your set without queuing for a rack.</p>
+</article>
+<article class="card">
+<svg class="ico" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M7 17 12 7h3M12 7 7 7"/></svg>
+<h3>Equipment for every muscle group</h3>
+<p>Cardio and weight-training machines, well maintained and ready across the whole 6 AM–10 PM day.</p>
+</article>
+<article class="card">
+<svg class="ico" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 3a5 5 0 0 1 5 5v1h-2V8a3 3 0 0 0-6 0v1H7V8a5 5 0 0 1 5-5Z"/><rect x="4" y="9" width="16" height="11" rx="2"/></svg>
+<h3>Coaches who guide every rep</h3>
+<p>“Knowledgeable trainers” and “helpful staff” are the most-mentioned words in MZ Fitness reviews.</p>
+<div class="ph">[Add trainer profiles]</div>
+</article>
+</div>
+<div class="ph" style="margin-top:16px">[Add real gym floor photos]</div>
+</section>
+<section class="start" style="border-radius:18px" aria-label="How to start">
+<div class="sec-head">
+<p class="kicker">Start here</p>
+<h2>From first message to first rep in one visit.</h2>
+<p>No forms, no waiting. The team replies during gym hours — 6 AM to 10 PM.</p>
+</div>
+<div class="steps">
+<div class="step"><span class="n">STEP 01</span><h3>Message on WhatsApp</h3><p>Tell us your goal — strength, weight loss, boxing or general fitness.</p></div>
+<div class="step"><span class="n">STEP 02</span><h3>Come in for a free trial</h3><p>Train on the floor, meet the coaches, feel the space. Walk in any day, 6 AM to 10 PM.</p></div>
+<div class="step"><span class="n">STEP 03</span><h3>Pick your membership</h3><p>Choose what fits — the team walks you through options at the desk.</p></div>
+</div>
+<div class="ph" style="margin-bottom:24px">[Add membership plans &amp; trial policy]</div>
+<div class="start-cta">
+<a class="btn primary" href="https://wa.me/917042084853?text=Hi%20MZ%20Fitness!%20I%20want%20to%20book%20a%20free%20trial%20session.">Book a free trial on WhatsApp</a>
+<a class="btn ghost" href="tel:+917042084853">Call +91 70420 84853</a>
+</div>
+</section>
+<section aria-label="Member words">
+<div class="sec-head">
+<p class="kicker">In their words</p>
+<h2>122 Google reviews. 110 of them five stars.</h2>
+<p>Straight from the MZ Fitness Google listing — unedited.</p>
+</div>
+<div class="quotes">
+<figure class="quote" style="margin:0">
+<span class="stars" aria-label="5 stars">★★★★★</span>
+<p>“Excellent gym with good-quality equipment and a motivating workout environment… the trainers are knowledgeable and supportive.”</p>
+<figcaption class="who">Eeshav Mehta · Google review</figcaption>
+</figure>
+<figure class="quote" style="margin:0">
+<span class="stars" aria-label="5 stars">★★★★★</span>
+<p>“The workout floor is massive and very spacious. The environment is positive, energetic, and highly motivating.”</p>
+<figcaption class="who">Rishabh Gulati · Google review</figcaption>
+</figure>
+<figure class="quote" style="margin:0">
+<span class="stars" aria-label="5 stars">★★★★★</span>
+<p>“Clean and motivating environment with good ventilation… trainers are supportive and guide properly, especially for beginners.”</p>
+<figcaption class="who">Kaif Ali · Google review</figcaption>
+</figure>
+</div>
+</section>
+<section aria-label="Visit us">
+<div class="sec-head">
+<p class="kicker">Visit</p>
+<h2>Find us on the Gagan Vihar main stretch.</h2>
+</div>
+<div class="visit">
+<div class="factbox">
+<div class="row"><b>Address</b>278, Gagan Vihar, Krishna Nagar, Delhi 110051</div>
+<div class="row"><b>Phone</b><a href="tel:+917042084853">+91 70420 84853</a></div>
+<div class="row"><b>Hours</b>Mon–Sat 6:00 AM–10:00 PM · Sun 8:00 AM–1:00 PM</div>
+<div class="row"><b>Directions</b><a href="https://www.google.com/maps/search/?api=1&amp;query=MZ%20FITNESS&amp;query_place_id=ChIJTXx7QAD7DDkRudl9SCSgxzI" rel="noopener">Open in Google Maps →</a></div>
+</div>
+<div class="mapbox">
+<p style="margin:0;color:var(--muted)">Two minutes from the Gagan Vihar main market — easy to reach from Krishna Nagar and East Delhi.</p>
+<div class="ph">[Add Google Maps embed]</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="wrap">
+<div>MZ FITNESS · Gagan Vihar, Krishna Nagar, Delhi 110051</div>
+<div><a href="tel:+917042084853">+91 70420 84853</a> · <a href="https://wa.me/917042084853">WhatsApp</a></div>
+</div>
+</footer>
+<div class="sticky" role="navigation" aria-label="Quick contact">
+<a class="btn primary" href="https://wa.me/917042084853?text=Hi%20MZ%20Fitness!%20I%20want%20to%20ask%20about%20a%20free%20trial%20session.">WhatsApp us</a>
+<a class="btn ghost" href="tel:+917042084853">Call</a>
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ExerciseGym","name":"MZ Fitness","telephone":"+917042084853","address":{"@type":"PostalAddress","streetAddress":"278, Gagan Vihar, Krishna Nagar","addressLocality":"Delhi","postalCode":"110051","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":28.6462273,"longitude":77.2945966},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"06:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"13:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"122"}}
+</script>
+<script defer src="canvasui/ripple.global.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try{
+    if(!reduced&&window.CanvasUIRipple&&CanvasUIRipple.supportsHtmlInCanvas()){
+      var host=document.getElementById('rippleHost'),art=document.getElementById('heroArt');
+      var src=document.createElement('canvas');src.setAttribute('layoutsubtree','');src.className='rippleSource';
+      var out=document.createElement('canvas');out.className='rippleOutput';
+      host.insertBefore(out,host.firstChild);host.insertBefore(src,out);
+      var inst=CanvasUIRipple.createRipple({source:src,content:art,output:out},{trigger:'click',amplitude:.45,speed:.7,refraction:60,dispersion:.35,shine:.4});
+      if(inst){host.classList.add('fx-on');}else{src.remove();out.remove();}
+    }
+  }catch(e){}
+  if(window.gsap&&!reduced){
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.timeline().from('.kicker',{y:16,opacity:0,duration:.5}).from('.hero h1',{y:26,opacity:0,duration:.65},'-=.25').from('.hero .lede,.hero .cta-row,.hero .micro',{y:16,opacity:0,stagger:.08,duration:.5},'-=.35').from('.rippleHost',{x:32,opacity:0,duration:.6},'-=.5');
+    gsap.utils.toArray('.card,.step,.quote,.factbox,.mapbox,.strip .wrap').forEach(function(el){gsap.from(el,{scrollTrigger:{trigger:el,start:'top 90%'},y:24,opacity:0,duration:.5});});
+  }
+});
+</script>
+</body>
+</html>
