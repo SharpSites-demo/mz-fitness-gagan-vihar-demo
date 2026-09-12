@@ -273,9 +273,9 @@ document.addEventListener('DOMContentLoaded',function(){
       var host=document.getElementById('rippleHost'),art=document.getElementById('heroArt');
       var src=document.createElement('canvas');src.setAttribute('layoutsubtree','');src.className='rippleSource';
       var out=document.createElement('canvas');out.className='rippleOutput';
-      host.insertBefore(out,host.firstChild);host.insertBefore(src,out);
+      host.insertBefore(src,host.firstChild);src.appendChild(art);
       var inst=CanvasUIRipple.createRipple({source:src,content:art,output:out},{trigger:'click',amplitude:.45,speed:.7,refraction:60,dispersion:.35,shine:.4});
-      if(inst){host.classList.add('fx-on');}else{src.remove();out.remove();}
+      if(inst){host.classList.add('fx-on');host.insertBefore(out,host.firstChild);}else{host.insertBefore(art,host.firstChild);src.remove();out.remove();}
     }
   }catch(e){}
   if(window.gsap&&!reduced){
