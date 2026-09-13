@@ -133,7 +133,7 @@ footer a.tel{font-weight:700;color:var(--ink);white-space:nowrap}
 
 <div class="top">
   <div class="wrap">
-    <div class="logo">MZ<b>&#9707;</b>FITNESS</div>
+    <div class="logo">MZ<b>&nbsp;FITNESS</b></div>
     <a class="call" href="tel:+917042084853">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
       <span>+91 70420 84853</span>
@@ -157,7 +157,7 @@ footer a.tel{font-weight:700;color:var(--ink);white-space:nowrap}
     </div>
     <div class="plateArt" role="img" aria-label="Illustration of a loaded barbell resting on the gym floor">
       <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line x1="16" y1="252" x2="544" y2="252" stroke="#181511" stroke-width="3"/>
+        <line x1="16" y1="290" x2="544" y2="290" stroke="#181511" stroke-width="3"/>
         <rect x="96" y="196" width="368" height="10" rx="5" fill="#181511"/>
         <rect x="72" y="192" width="26" height="18" rx="6" fill="#181511"/>
         <rect x="462" y="192" width="26" height="18" rx="6" fill="#181511"/>
@@ -179,7 +179,6 @@ footer a.tel{font-weight:700;color:var(--ink);white-space:nowrap}
           <circle cx="240" cy="86" r="3"/><circle cx="318" cy="72" r="2.4"/><circle cx="292" cy="94" r="2"/>
           <circle cx="352" cy="88" r="2.6"/><circle cx="206" cy="102" r="2"/>
         </g>
-        <text x="280" y="284" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="4" fill="#5c554a">ONE BAR. EVERY REP YOURS.</text>
       </svg>
     </div>
   </div>
@@ -327,15 +326,13 @@ footer a.tel{font-weight:700;color:var(--ink);white-space:nowrap}
 document.addEventListener('DOMContentLoaded',function(){
   var reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   if(window.gsap&&!reduced){
-    gsap.registerPlugin(ScrollTrigger);
     gsap.timeline()
       .from('.hero .plate',{y:14,opacity:0,duration:.45})
       .from('.hero h1',{y:30,opacity:0,duration:.6},'-=.2')
       .from('.hero .sub > *',{y:16,opacity:0,stagger:.09,duration:.45},'-=.3')
       .from('.plateArt',{x:28,opacity:0,duration:.55},'-=.4');
-    gsap.utils.toArray('.fac-item,.step,.led-row,.bar-row,.pull figure').forEach(function(el){
-      gsap.from(el,{scrollTrigger:{trigger:el,start:'top 92%'},y:22,opacity:0,duration:.45});
-    });
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.to('.plateArt',{y:-26,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
   }
 });
 </script>
