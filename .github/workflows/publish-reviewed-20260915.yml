@@ -1,0 +1,12 @@
+name: Publish reviewed MZ Fitness redesign
+on:
+  push:
+    branches: [gh-pages]
+    paths: [.github/workflows/publish-reviewed-20260915.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: SharpSites-demo/sparta-gym-spa-ritik-demo/.github/workflows/publish-reviewed-html.yml@41cd0e039ca25ad2234ffc0978649d9e00875f09
+    with:
+      expected_sha256: 7b4eca4fb0268e03c296eb4d44e51b7181c64d4323292b7e655f30fd09a86651
