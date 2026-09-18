@@ -1,0 +1,28 @@
+{
+  "version": "2026-09-18-trust-v1",
+  "row": 2,
+  "business": "MZ FITNESS",
+  "slug": "mz-fitness-gagan-vihar-demo",
+  "place_id": "ChIJTXx7QAD7DDkRudl9SCSgxzI",
+  "phone": "917042084853",
+  "rating": 4.7,
+  "review_count": 122,
+  "checked_on": "2026-09-18",
+  "source": "https://www.google.com/maps/search/?api=1&query=MZ%20FITNESS&query_place_id=ChIJTXx7QAD7DDkRudl9SCSgxzI",
+  "reviews": [
+    {
+      "author": "Eeshav Mehta",
+      "stars": 5,
+      "date": "2026-07-29",
+      "quote": "Excellent gym with good-quality equipment and a motivating workout environment.",
+      "excerpt": true
+    },
+    {
+      "author": "Vaibhav Chaudhary",
+      "stars": 5,
+      "date": "2026-07-29",
+      "quote": "The staff is welcoming and friendly.",
+      "excerpt": true
+    }
+  ]
+}

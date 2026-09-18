@@ -1,0 +1,14 @@
+{
+  "version": "2026-09-18-trust-v1",
+  "business": "MZ FITNESS",
+  "source": "https://www.google.com/maps/search/?api=1&query=MZ%20FITNESS&query_place_id=ChIJTXx7QAD7DDkRudl9SCSgxzI",
+  "rating": 4.7,
+  "review_count": 122,
+  "checked_on": "2026-09-18",
+  "quoted_reviews": 2,
+  "quoted_words": 16,
+  "hero": "text-led; business photos have not been visually verified",
+  "original_sha256": "7b4eca4fb0268e03c296eb4d44e51b7181c64d4323292b7e655f30fd09a86651",
+  "updated_sha256": "7a5bbb281ddd20762a34cb32e79cb380f5d63dfecc1a53b52e60718e34f8dc4d",
+  "contact_destinations_preserved": true
+}
