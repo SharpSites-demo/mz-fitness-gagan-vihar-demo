@@ -1,0 +1,198 @@
+{
+  "gym-1": {
+    "family": "terracotta",
+    "colors": {
+      "paper": "#f8f4ec",
+      "ink": "#3d302b",
+      "accent": "#d7a286",
+      "accent-ink": "#874d36",
+      "surface": "#f0e4d8",
+      "muted": "#6c594d",
+      "art-bg": "#f0e4d8",
+      "art-text": "#3d302b",
+      "line": "#3d302b29"
+    }
+  },
+  "2C243774": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f7f6f0",
+      "ink": "#36352e",
+      "accent": "#baba9f",
+      "accent-ink": "#585d4c",
+      "surface": "#e9ebdf",
+      "muted": "#605e51",
+      "art-bg": "#e9ebdf",
+      "art-text": "#36352e",
+      "line": "#36352e29"
+    }
+  },
+  "photo-4": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f7f6ee",
+      "ink": "#313730",
+      "accent": "#b7bba1",
+      "accent-ink": "#46653f",
+      "surface": "#eaecde",
+      "muted": "#606052",
+      "art-bg": "#eaecde",
+      "art-text": "#313730",
+      "line": "#31373029"
+    }
+  },
+  "055FA71A": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f7f6ee",
+      "ink": "#30382c",
+      "accent": "#b8bca2",
+      "accent-ink": "#4c5b46",
+      "surface": "#eaeedf",
+      "muted": "#606052",
+      "art-bg": "#eaeedf",
+      "art-text": "#30382c",
+      "line": "#30382c29"
+    }
+  },
+  "97A46B5A": {
+    "family": "terracotta",
+    "colors": {
+      "paper": "#fff5eb",
+      "ink": "#3d3029",
+      "accent": "#d4a187",
+      "accent-ink": "#874d36",
+      "surface": "#efe5d8",
+      "muted": "#6a594f",
+      "art-bg": "#efe5d8",
+      "art-text": "#3d3029",
+      "line": "#3d302929"
+    }
+  },
+  "gym-2": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f7f6f0",
+      "ink": "#32332e",
+      "accent": "#bab9a1",
+      "accent-ink": "#4f5049",
+      "surface": "#eaece0",
+      "muted": "#605e51",
+      "art-bg": "#eaece0",
+      "art-text": "#32332e",
+      "line": "#32332e29"
+    }
+  },
+  "AD826C3C": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f7f6ee",
+      "ink": "#35332f",
+      "accent": "#b7b9a1",
+      "accent-ink": "#545648",
+      "surface": "#ebeedf",
+      "muted": "#606052",
+      "art-bg": "#ebeedf",
+      "art-text": "#35332f",
+      "line": "#35332f29"
+    }
+  },
+  "dental": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f7f7ec",
+      "ink": "#30382e",
+      "accent": "#b9b8a1",
+      "accent-ink": "#4a5b4a",
+      "surface": "#e8edde",
+      "muted": "#606052",
+      "art-bg": "#e8edde",
+      "art-text": "#30382e",
+      "line": "#30382e29"
+    }
+  },
+  "E1117AD0": {
+    "family": "sage",
+    "colors": {
+      "paper": "#f8f4ee",
+      "ink": "#38322f",
+      "accent": "#bab89f",
+      "accent-ink": "#55593f",
+      "surface": "#eeecdf",
+      "muted": "#625a54",
+      "art-bg": "#eeecdf",
+      "art-text": "#38322f",
+      "line": "#38322f29"
+    }
+  },
+  "C19A663E": {
+    "family": "rose",
+    "colors": {
+      "paper": "#faf4f2",
+      "ink": "#433535",
+      "accent": "#d9afa4",
+      "accent-ink": "#85645f",
+      "surface": "#f1e4e0",
+      "muted": "#6d5954",
+      "art-bg": "#f1e4e0",
+      "art-text": "#433535",
+      "line": "#43353529"
+    }
+  },
+  "A3FACF48": {
+    "family": "rose",
+    "colors": {
+      "paper": "#fdf5f1",
+      "ink": "#453536",
+      "accent": "#d4aca5",
+      "accent-ink": "#8e5e5c",
+      "surface": "#f1e4e2",
+      "muted": "#6e5a55",
+      "art-bg": "#f1e4e2",
+      "art-text": "#453536",
+      "line": "#45353629"
+    }
+  },
+  "CAEB4292": {
+    "family": "royal-celebration",
+    "colors": {
+      "paper": "#fcf6ed",
+      "ink": "#3a2322",
+      "accent": "#c49b60",
+      "accent-ink": "#722f33",
+      "surface": "#f7e3d0",
+      "muted": "#715948",
+      "art-bg": "#f7e3d0",
+      "art-text": "#3a2322",
+      "line": "#3a232229"
+    }
+  },
+  "B65DECA7": {
+    "family": "royal-celebration",
+    "colors": {
+      "paper": "#fff7ee",
+      "ink": "#382623",
+      "accent": "#c49b60",
+      "accent-ink": "#68372e",
+      "surface": "#efe6d4",
+      "muted": "#735e48",
+      "art-bg": "#efe6d4",
+      "art-text": "#382623",
+      "line": "#38262329"
+    }
+  },
+  "photo-34": {
+    "family": "red-charcoal",
+    "colors": {
+      "paper": "#f6f4f0",
+      "ink": "#282824",
+      "accent": "#b65b4c",
+      "accent-ink": "#862f26",
+      "surface": "#e8e1d8",
+      "muted": "#665d52",
+      "art-bg": "#e8e1d8",
+      "art-text": "#282824",
+      "line": "#28282429"
+    }
+  }
+}
